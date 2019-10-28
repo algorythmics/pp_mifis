@@ -6,8 +6,8 @@
 #
 # CC:  gcc and mingw
 #######################################################
-
 NAME = midiconv
+PROGRAMS = 
 
 HEADERS =  midilib/mididefs.h midilib/midifile.h src/midiconv.h
 DEPALL = makefile
@@ -25,6 +25,7 @@ WINCC=i686-w64-mingw32-gcc
 #WINCC=i586-mingw32msvc-gcc
 
 all:	$(PROGRAMS)
+	echo use make \<linux \| win \>
 
 linux: bin/midiconv
 

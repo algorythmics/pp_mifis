@@ -1,0 +1,3 @@
+midilib
+bin/midiconv
+*.o
